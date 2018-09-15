@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View} from 'react-native';
+import {Platform, StyleSheet, Text, View, PermissionsAndroid} from 'react-native';
 import { createStackNavigator } from 'react-navigation'
 import LandingPage from './src/containers/landingPage'
 import Page1 from './src/containers/page1'
@@ -23,4 +23,5 @@ export default class App extends Component {
     );
   }
 }
+
 
